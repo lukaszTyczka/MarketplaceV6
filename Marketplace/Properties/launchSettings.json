@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Marketplace": {
+      "commandName": "Project",
+      "launchBrowser": true
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {},
+      "distributionName": ""
+    }
+  }
+}
