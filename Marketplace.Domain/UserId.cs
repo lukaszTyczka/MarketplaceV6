@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Marketplace.Framework;
 
 namespace Marketplace.Domain
 {
-    public class UserId
+    public class UserId : Value<UserId>
     {
         private readonly Guid _value;
         public UserId(Guid value)
