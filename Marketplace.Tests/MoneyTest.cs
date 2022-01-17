@@ -29,5 +29,15 @@ public class MoneyTest
 
         banknot.Should().Be(coin1+ coin2 + coin3);
     }
+
+    [Fact]
+    public void SubtractOfMoneyGiveAmount()
+    {
+        var banknot = new Money(10);
+        var banknot2 = new Money(5);
+        var resultBanknot = new Money(5);
+
+        resultBanknot.Should().Be(banknot - banknot2);
+    }
 }
 
